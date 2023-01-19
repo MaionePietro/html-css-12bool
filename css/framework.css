@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* SETTAGGIO CONTAINER */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* SETTAGGIO RIGA */
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* NO DODICESIMI */
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 1170px;
+}
