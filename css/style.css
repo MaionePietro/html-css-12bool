@@ -1,7 +1,21 @@
 .row *{
-    background-color: blue;
+    background-color: #084FFF;
     padding: 10px;
     color: white;
     text-align: center;
-    margin: 1px;
+    border: 1px solid white;
+}
+
+
+.green *{
+    background-color: #00E73F;
+    border: 1px solid blue;
+}
+.green{
+    padding: 0;
+    border: none;
+}
+
+body .container:nth-child(2){
+    margin-top: 20px;
 }
