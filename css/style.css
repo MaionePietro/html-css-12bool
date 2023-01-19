@@ -1,21 +1,25 @@
 .row *{
     background-color: #084FFF;
-    padding: 10px;
     color: white;
     text-align: center;
-    border: 1px solid white;
 }
-
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,
+.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    border: 1px solid;
+    padding:15px 0;
+}
 
 .green *{
     background-color: #00E73F;
     border: 1px solid blue;
 }
 .green{
-    padding: 0;
     border: none;
 }
 
 body .container:nth-child(2){
+    margin-top: 20px;
+}
+body .container:nth-child(3){
     margin-top: 20px;
 }
